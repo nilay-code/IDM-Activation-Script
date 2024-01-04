@@ -42,7 +42,7 @@ iex(irm is.gd/idm_reset)
 ```
 or
 ```
-iwr -useb https://raw.githubusercontent.com/lstprjct/IDM-Activation-Script/main/IAS.ps1 | iex
+iwr -useb https://raw.githubusercontent.com/nilay-code/IDM-Activation-Script/main/IAS.ps1 | iex
 ```
 
 You will see the activation options, and follow onscreen instructions.
