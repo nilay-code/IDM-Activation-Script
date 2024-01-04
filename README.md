@@ -13,16 +13,6 @@ _________________________________
  - After the activation, if in some cases, the IDM starts to show an activation nag screen, 
    then just run the activation option again.
 
-_________________________________
-
-###   Reset IDM Activation / Trial:
-_________________________________
-
- - The Internet Download Manager provides 30 days trial period, you can use this script to 
-   reset this Activation / Trial period whenever you want.
- 
- - This option also can be used to restore status if in case the IDM reports a fake serial
-   key and other similar errors.
 
 _________________________________
 
@@ -37,10 +27,8 @@ On Windows 10/11, right-click on the windows start menu and select PowerShell or
 
 Copy-paste the below code and press enter:
 
-```
-iex(irm is.gd/idm_reset)
-```
-or
+
+
 ```
 iwr -useb https://raw.githubusercontent.com/nilay-code/IDM-Activation-Script/main/IAS.ps1 | iex
 ```
